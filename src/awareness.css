@@ -1,0 +1,52 @@
+.navbar-nav .nav-link {
+    margin-right: 10px; /* Adjust this value to increase/decrease spacing */
+  }
+  body {
+    font-family:'Times New Roman', Times, serif; /* Change this to the desired font family */
+    font-size: 18px;
+  }
+  .bg-image {
+    background-image: url(https://images.pexels.com/photos/3401354/pexels-photo-3401354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 340px;
+    width: 100%;
+  }
+
+  .centered-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: #ffffff; /* Adjust text color based on your background image */
+    text-align: center;
+  }
+      /* Custom card width */
+      .custom-card1 {
+    width: 80%; /* Adjust the width as needed */
+    border-color: transparent;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+  @media (max-width: 860px) {
+.custom-card1 {
+  width: 90%; /* Adjust the width for smaller screens */
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+  .custom-card2
+  {
+      width: 80%; /* Adjust the width as needed */
+    border-color: transparent;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+  @media (max-width: 860px) {
+.custom-card2 {
+  width: 90%; /* Adjust the width for smaller screens */
+  margin-left: auto;
+  margin-right: auto;
+}
+}
