@@ -1,0 +1,121 @@
+.navbar-nav .nav-link {
+    margin-right: 10px; /* Adjust this value to increase/decrease spacing */
+  }
+  body {
+    font-family: Georgia, Arial;
+    font-size: 18.5px;
+  }
+  body > .skiptranslate {
+    display: none;
+  }
+  .bg-image {
+    background-image: url(/assets/images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    width: 100%;
+  }
+
+  .centered-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+  }
+  .content {
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 50px;
+    text-align: justify;
+    font-family: Lora, Arial;
+    font-size: 12pt;
+    font-weight: 600;
+    vertical-align: baseline;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .card {
+    flex-basis: calc(33.33% - 20px); /* Three cards in a row*/
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .card-content {
+    padding: 20px;
+    font-size: 25px;
+  }
+
+  .card-link {
+    color: rgba(32, 66, 40, 1);
+  }
+
+  .centered-row {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+  }
+
+  section {
+    background-color: #f2f2f2; /* Gray background color for the entire section */
+    text-align: justify;
+  }
+  .wide-button {
+    width: 50%; /* Adjust the width as needed */
+    background-color: rgba(32, 66, 40, 1);
+  }
+
+  .wide-button:hover,
+  .wide-button:active,
+  .wide-button:focus {
+    background-color: rgba(
+      32,
+      66,
+      40,
+      1
+    ) !important ; /* Set the background color to the same color for all states */
+    box-shadow: none !important; /* Remove the box shadow */
+    border: none !important; /* Remove the border */
+  }
+  @media (max-width: 767px) {
+    .card {
+      flex-basis: 100%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .wide-button {
+      width: 100%;
+    }
+    .navbar-nav .nav-link {
+      margin-right: 5px;
+    }
+
+    /* Remove left and right margin for text content on smaller screens */
+    .content {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }

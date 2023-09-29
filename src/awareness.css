@@ -6,12 +6,15 @@
     font-size: 18px;
   }
   .bg-image {
-    background-image: url(https://images.pexels.com/photos/3401354/pexels-photo-3401354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
+    background-image: url(/assets/images/background.jpeg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 340px;
     width: 100%;
+  }
+  body > .skiptranslate {
+    display: none;
   }
 
   .centered-text {
@@ -49,4 +52,23 @@
   margin-left: auto;
   margin-right: auto;
 }
+}
+.heading1
+{
+    line-height: 85px; font-size: 85px; margin-top: 100px;
+}
+@media (max-width: 480px) {
+    .heading1 {
+        font-size: 55px;
+    }
+}
+
+.heading2
+{
+    line-height: 33px; font-size: 27px; font-weight: 400; font-family: lora,serif;
+}
+@media (max-width: 480px) {
+    .heading2 {
+        font-size: 20px;
+    }
 }
