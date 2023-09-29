@@ -1,0 +1,80 @@
+.navbar-nav .nav-link {
+    margin-right: 10px; /* Adjust this value to increase/decrease spacing */
+  }
+  body {
+    font-family: Georgia, Arial;
+    font-size: 18.5px;
+  }
+  body > .skiptranslate {
+    display: none;
+  }
+  .bg-image {
+    background-image:url(/assets/images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    width: 100%;
+  }
+
+  .centered-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  /* Centered title */
+  .section-title {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .points-container {
+    margin-top: 50px;
+  }
+
+  /* Points list */
+  .points-list {
+    list-style-type: circle;
+    padding-left: 15px;
+  }
+  /* Individual name: details pair */
+  .point {
+    margin-bottom: 10px;
+  }
+
+  /* Style the colon */
+  .colon {
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  .name {
+    color: black;
+    font-weight: bold;
+  }
+  section {
+    background-color: #f2f2f2; /* Gray background color for the entire section */
+    text-align: justify;
+  }
+  .content {
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 70px;
+  }
+  @media (max-width: 767px) {
+    /* Adjust the spacing for smaller screens */
+    .navbar-nav .nav-link {
+      margin-right: 5px;
+    }
+
+    /* Remove left and right margin for text content on smaller screens */
+    .content {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
