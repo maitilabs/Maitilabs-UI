@@ -1,15 +1,6 @@
-.navbar-nav .nav-link {
-    margin-right: 10px; /* Adjust this value to increase/decrease spacing */
-  }
-  body {
-    font-family: Georgia, Arial;
-    font-size: 18.5px;
-  }
-  body > .skiptranslate {
-    display: none;
-  }
+
   .bg-image {
-    background-image:url(/assets/images/background.jpeg);
+    background-image: url(/assets/images/background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -65,16 +56,4 @@
     margin-left: 100px;
     margin-right: 70px;
     margin-top: 70px;
-  }
-  @media (max-width: 767px) {
-    /* Adjust the spacing for smaller screens */
-    .navbar-nav .nav-link {
-      margin-right: 5px;
-    }
-
-    /* Remove left and right margin for text content on smaller screens */
-    .content {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
   }
