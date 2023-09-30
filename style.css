@@ -1,49 +1,4 @@
-*{
-   box-sizing: border-box;
-}
 
-@font-face {
-    font-family: 'Lora';
-    src: url('./assets/fonts/Lora/static/Lora-Regular.ttf');
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('./assets/fonts/Poppins/Poppins-Regular.ttf');
-  }
-  
-body {
-    font-family: 'Poppins', sans-serif;  
-    font-size: 18px;
-
-}
-
-.brand-logo{
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-}
-
-.brand-title{
-    color: #204228;
-    font-family: 'Lora', sans-serif;
-    font-weight: bold;
-    font-size: 22px;
-}
-
-.navbar-nav .nav-item{
-    font-weight: 500;
-}
-
-.navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover{
-    color: #204228;
-}
-
-footer{
-    background-color: #204228;
-    color: #fff;
-    padding: 20px 0;
-}
 
 /* Hero section styles */
 #hero {

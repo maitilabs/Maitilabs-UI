@@ -1,13 +1,4 @@
-.navbar-nav .nav-link {
-    margin-right: 10px; /* Adjust this value to increase/decrease spacing */
-  }
-  body {
-    font-family: Georgia, Arial;
-    font-size: 18.5px;
-  }
-  body > .skiptranslate {
-    display: none;
-  }
+
   .bg-image {
     background-image: url(/assets/images/background.jpeg);
     background-size: cover;

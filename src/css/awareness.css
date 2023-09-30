@@ -1,10 +1,4 @@
-.navbar-nav .nav-link {
-    margin-right: 10px; /* Adjust this value to increase/decrease spacing */
-  }
-  body {
-    font-family:'Times New Roman', Times, serif; /* Change this to the desired font family */
-    font-size: 18px;
-  }
+
   .bg-image {
     background-image: url(/assets/images/background.jpeg); 
     background-size: cover;
@@ -13,10 +7,7 @@
     height: 340px;
     width: 100%;
   }
-  body > .skiptranslate {
-    display: none;
-  }
-
+  
   .centered-text {
     display: flex;
     flex-direction: column;
@@ -65,7 +56,7 @@
 
 .heading2
 {
-    line-height: 33px; font-size: 27px; font-weight: 400; font-family: lora,serif;
+    line-height: 33px; font-size: 27px; font-weight: 400; font-family: 'lora',serif;
 }
 @media (max-width: 480px) {
     .heading2 {
