@@ -43,7 +43,7 @@ const login = (newToken) => {
         };
       
         try {
-          const response = await axios.post('https://maitilabs-ojaz.vercel.app/api/login', queryParams);
+          const response = await axios.post(process.env.REACT_APP_API_URL+'/api/login', queryParams);
           console.log(response.data);
           if (response.data.msg === "login success") {
             login(`Bearer ${response.data.token}`);

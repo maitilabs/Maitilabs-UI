@@ -25,7 +25,7 @@ function OTP(){
           
           try{
           
-            const response= await axios.post("https://maitilabs-ojaz.vercel.app/api/signup/verify",OtpParams, {
+            const response= await axios.post(process.env.REACT_APP_API_URL+"/api/signup/verify",OtpParams, {
                 headers: {
                   'Content-Type': 'application/json'
                 }

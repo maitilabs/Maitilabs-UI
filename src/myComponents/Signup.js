@@ -20,7 +20,7 @@ function Signup() {
     };
 
     try{
-        const response= await axios.post("https://maitilabs-ojaz.vercel.app/api/signup",formData, {
+        const response= await axios.post(process.env.REACT_APP_API_URL+"/api/signup",formData, {
             headers: {
               'Content-Type': 'application/json'
             }
