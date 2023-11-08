@@ -29,7 +29,7 @@ function AddBlog() {
 
     try {
       const response = await axios.post(
-        "https://maitilabs-ojaz.vercel.app/addBlog",
+        process.env.REACT_APP_API_URL+"/addBlog",
         formData,{
          headers: {
           Authorization:storedToken, // Add the "Authorization" header like this

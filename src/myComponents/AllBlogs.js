@@ -8,7 +8,7 @@ const showBlog = () => {
 
     useEffect(() => {
       
-      axios.get('https://maitilabs-ojaz.vercel.app/showBlogs') 
+      axios.get(process.env.REACT_APP_API_URL+'/showBlogs') 
         
         .then((res) =>{ 
           console.log(res.data);
