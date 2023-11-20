@@ -16,6 +16,7 @@ import Career from './myComponents/Career.js';
 import Contact from './myComponents/Contact';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useState ,useEffect} from 'react';
+import BlogDetail from './myComponents/BlogDetail.js';
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
      <Route path="/otp" element={<OTP/>}/>
      <Route path="/signup" element={<Signup/>}/>
      <Route path="/login" element={<Login isUserLoggedIn={isUserLoggedIn} setIsUserLoggedIn={setIsUserLoggedIn}/>}/>
+     <Route path="/blog/:id" element={<BlogDetail/>}/>
    </Routes>
    <Footer/>
    </div>

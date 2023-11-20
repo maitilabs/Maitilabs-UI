@@ -21,7 +21,7 @@ function AddBlog() {
     const image = e.target.files[0];
     const base64= await convertToBase64(image);
     console.log(image);
-    setFormData({ ...formData, image: base64 });
+    setFormData({...formData, image: base64 });
   }
     
   const handleSubmit = async (e) => {
@@ -153,13 +153,13 @@ export default AddBlog;
 function convertToBase64(file){
   return new Promise((resolve, reject) => {
     const filereader = new FileReader();
-  
+  filereader.readAsDataURL(file);
     filereader.onload = () => {
       resolve(filereader.result)
 };
   filereader.onerror = (error) => {
   reject(error)
 
-}; filereader.readAsDataURL(file);
+}; 
 })
 }
